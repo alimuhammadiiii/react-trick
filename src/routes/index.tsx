@@ -7,9 +7,9 @@ export const Route = createFileRoute("/")({
 function Home() {
   return (
     <>
-      <ul>
-        <li>
-          <Link to="/useReducer">use reducer</Link>
+      <ul className="flex flex-col m-auto p-5">
+        <li className="font-bold">
+          <Link to="/useReducer">1-use reducer</Link>
         </li>
       </ul>
     </>
